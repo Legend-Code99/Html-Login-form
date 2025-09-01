@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHxZN1dvy5f9I_5TqHfDjyaAvNaQbjRFxxdg&usqp=CAU');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h2 {
+      color: rgba(0, 255, 255, 0.719);
+  }
+  .login-container {
+    background-color: #d1d1d131;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 1;
+    width: 300px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+   
+  }
+  
+  .login-container h2 {
+    margin-bottom: 15px;
+    width: 250px;
+    margin-left: 25px;
+  }
+  
+  .login-container input[type="name"],
+  .login-container input[type="trade"],
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    background-color: #f1ddf1c3;
+    color: black;
+  }
+  
+  .login-container input[type="submit"] {
+    width: 100px;
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-container input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
